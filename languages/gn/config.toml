@@ -1,0 +1,5 @@
+name = "GN"
+grammar = "gn"
+path_suffixes = ["gn", "gni"]
+line_comments = ["# "]
+language_servers = ["gn-language-server"]

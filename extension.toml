@@ -1,0 +1,18 @@
+id = "gn-extension"
+name = "GN Language Support"
+version = "0.1.0"
+schema_version = 1
+authors = ["Abhinav <abhi.gupta8802@gmail.com>"]
+description = "GN build system language support for Zed using the https://github.com/google/gn-language-server"
+
+[language_servers.gn-language-server]
+name = "GN Language Server"
+languages = ["GN"]
+
+[grammars.gn]
+repository = "https://github.com/amaanq/tree-sitter-gn"
+rev = "bc06955bc1e3c9ff8e9b2b2a55b38b94da923c05"
+
+[zed-gn]
+submodule = "extensions/zed-gn"
+version = "0.1.0"
